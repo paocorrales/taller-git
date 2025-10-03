@@ -4,6 +4,7 @@ pulgadas_a_centimetros <- function(medida_pulgadas) {
   
   if (!is.numeric(medida_pulgadas)) {
     cli::cli_abort(c(
+
       "medida_pulgadas debe ser una variable numérica.",
       "i" =  "La variable ingresada es un {class(medida_pulgadas)[1]}."
     ))
